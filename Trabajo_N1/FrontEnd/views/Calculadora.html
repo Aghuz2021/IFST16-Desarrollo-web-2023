@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="../style/calculadora.css" >
+</HEAd>
+
+<body>
+
+   <div class="contenedor_hora">
+      <div id="contenedor_hora_h1"></div>
+      <h1>Hora actual</h1>
+      <h1 id="hora-actual""> </h1>
+   </div>
+   <div class="calculator">
+      <div id="contenedor_h1">
+         <h1>Ingrese el primer numero: </h1>
+         <input  id="numeroUno">
+      </div>
+
+      <div id="contenedor_h2">
+         <h1>Ingrese el segundo numero:</h1>
+         <input id="numeroDos">
+      </div>
+
+      
+      <div id="contenedor_button">
+         <button onclick="operacion(1)">Suma</button>
+      <button onclick="operacion(2)">Resta</button>
+      <button onclick="operacion(3)">Multiplicacion</button>
+      <button onclick="operacion(4)">Division</button>   
+      </div>
+      
+      <div id="contenedor_resultado">
+        <br> <h1>Resultado</h1>
+      <br><input id="Resultado"></br>
+      </div>
+    
+   </DIv>
+ 
+   
+   
+   <script src="../scripts/calcuculadora.js"></script>
+   <script src="../scripts/hora.js"></script>
+<body>
+</html>
