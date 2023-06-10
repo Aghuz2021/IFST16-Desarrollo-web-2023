@@ -12,9 +12,7 @@ function avanzaReloj(){
    setTimeout(avanzaReloj,1000);
  }
  
- avanzaReloj();
-
-
+avanzaReloj();
 
 function operacion(op) {
    var num1 = parseInt(document.getElementById("numeroUno").value);
